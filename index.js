@@ -50,9 +50,9 @@ for (const [i, p1] of herois.entries()) {
         
         function compararAtributo(atributo) {
             if (p1[atributo] > p2[atributo]) {
-                console.log(`${p1.codinome} vence em ${atributo} (${p1[atributo]} > ${p2[atributo]})`);
+                console.log(`${p1.codinome} Vence em ${atributo} (${p1[atributo]} > ${p2[atributo]})`);
             } else if (p1[atributo] < p2[atributo]) {
-                console.log(`${p2.codinome} vence em ${atributo} (${p2[atributo]} > ${p1[atributo]})`);
+                console.log(`${p2.codinome} Vence em ${atributo} (${p2[atributo]} > ${p1[atributo]})`);
             } else {
                 console.log(`Empate em ${atributo} (${p1[atributo]} = ${p2[atributo]})`);
             }
